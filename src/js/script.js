@@ -43,7 +43,7 @@ loadingManager.onLoad = function () {
 
 const gltfLoader = new GLTFLoader(loadingManager);
 
-renderer.outputEncoding = THREE.sRGBEncoding;
+// renderer.outputEncoding = THREE.sRGBEncoding;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
 
 let position = 0;

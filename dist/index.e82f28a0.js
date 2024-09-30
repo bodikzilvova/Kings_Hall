@@ -613,7 +613,7 @@ loadingManager.onLoad = function() {
     progressBarContainer.style.display = "none";
 };
 const gltfLoader = new (0, _gltfloaderJs.GLTFLoader)(loadingManager);
-renderer.outputEncoding = _three.sRGBEncoding;
+// renderer.outputEncoding = THREE.sRGBEncoding;
 renderer.toneMapping = _three.ACESFilmicToneMapping;
 let position = 0;
 gltfLoader.load("../assets/scene.gltf", function(gltf) {
